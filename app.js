@@ -51,6 +51,9 @@ app.use('/', index);
 const myAuthRoutes = require('./routes/auth-routes');
 app.use('/', myAuthRoutes);
 
+const myPubgRoutes = require('./routes/pubg-routes');
+app.use('/', myPubgRoutes);
+
 //-------------------------------------------------------
 
 
