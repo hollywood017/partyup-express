@@ -18,7 +18,7 @@ router.post('/api/pubgStats', (req, res, next) => {
     if (!error && response.statusCode == 200) {
       var info = JSON.parse(body);
       console.log(body);
-      return body;
+      res.send (body);
     }
   }
 
